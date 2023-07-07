@@ -21,7 +21,7 @@ body, html {
 .ls-box .view-ls {
   width: calc(100% - 20px);
   max-width: 898px;
-  max-height: 500px;
+  max-height: 530px;
   position: absolute;
   z-index: 10;
   border-radius: 8px;
