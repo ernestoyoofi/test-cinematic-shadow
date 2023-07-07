@@ -2,7 +2,7 @@ var video = document.querySelector("video")
 var canvas = document.querySelector("canvas")
 var select = document.querySelector("select")
 
-setInterval(() => {
+video.addEventListener("play", () => {
   if(!video) return;
   canvas.width = video.clientWidth
   canvas.height = video.clientHeight
