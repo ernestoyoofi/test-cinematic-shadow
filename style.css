@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #121212;
+}
+.mc-box {
+  display: flex;
+  padding: 10px;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ls-box {
+  display: flex;
+  max-width: 900px;
+}
+.ls-box .view-ls {
+  width: calc(100% - 20px);
+  max-width: 898px;
+  max-height: 500px;
+  position: absolute;
+  z-index: 10;
+  border-radius: 8px;
+  /*background-color: #000000;*/
+}
+.ls-box .bg-ls {
+  max-height: 500px;
+  filter: blur(40px);
+}
